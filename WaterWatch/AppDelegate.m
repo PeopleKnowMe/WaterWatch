@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import <Parse/Parse.h>
+#import <ParseFacebookUtilsV4/PFFacebookUtils.h>
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FacebookSDK/FacebookSDK.h>
+
 
 @interface AppDelegate ()
 
@@ -17,7 +22,24 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    return YES;
+    [Parse setApplicationId:@"sknDZGW1xah7KPcOwpTpkYAeLmLn6SCwitQzn5Fj" clientKey:@"CnIHepJmbuwH3JEsNd4HIxzgrBPdLWp6m2Fe3Yhw"];
+    
+    BOOL r = [[FBSDKApplicationDelegate sharedInstance] application:application didFinishLaunchingWithOptions:launchOptions];
+    
+    [PFFacebookUtils initializeFacebookWithApplicationLaunchOptions:(launchOptions)];
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+
+    return r;
+}
+
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation {
+    return [[FBSDKApplicationDelegate sharedInstance] application:application
+                                                          openURL:url
+                                                sourceApplication:sourceApplication
+                                                       annotation:annotation];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

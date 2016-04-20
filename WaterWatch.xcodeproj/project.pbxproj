@@ -16,6 +16,33 @@
 		A3E437241CC592370011FFBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3E437221CC592370011FFBC /* LaunchScreen.storyboard */; };
 		A3E4372F1CC592370011FFBC /* WaterWatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E4372E1CC592370011FFBC /* WaterWatchTests.m */; };
 		A3E4373A1CC592370011FFBC /* WaterWatchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E437391CC592370011FFBC /* WaterWatchUITests.m */; };
+		A3E4374C1CC598310011FFBC /* wwLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E4374B1CC598310011FFBC /* wwLoginViewController.m */; };
+		A3E437631CC5A5770011FFBC /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E437621CC5A5770011FFBC /* StoreKit.framework */; };
+		A3E4376D1CC5A5B70011FFBC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E437661CC5A5B70011FFBC /* libsqlite3.tbd */; };
+		A3E4376E1CC5A5B70011FFBC /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E437671CC5A5B70011FFBC /* libstdc++.6.tbd */; };
+		A3E4376F1CC5A5B70011FFBC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E437681CC5A5B70011FFBC /* libz.tbd */; };
+		A3E437701CC5A5B70011FFBC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E437691CC5A5B70011FFBC /* MobileCoreServices.framework */; };
+		A3E437711CC5A5B70011FFBC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E4376A1CC5A5B70011FFBC /* Security.framework */; };
+		A3E437721CC5A5B70011FFBC /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E4376B1CC5A5B70011FFBC /* Social.framework */; };
+		A3E437731CC5A5B70011FFBC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E4376C1CC5A5B70011FFBC /* SystemConfiguration.framework */; };
+		A3E437751CC5A5D60011FFBC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E437741CC5A5D60011FFBC /* QuartzCore.framework */; };
+		A3E437771CC5A5DE0011FFBC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E437761CC5A5DE0011FFBC /* CoreLocation.framework */; };
+		A3E437791CC5A5E40011FFBC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E437781CC5A5E40011FFBC /* CFNetwork.framework */; };
+		A3E4377B1CC5A5EA0011FFBC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E4377A1CC5A5EA0011FFBC /* CoreData.framework */; };
+		A3E4377D1CC5A6030011FFBC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E4377C1CC5A6030011FFBC /* AudioToolbox.framework */; };
+		A3E4377F1CC5A61E0011FFBC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E4377E1CC5A61E0011FFBC /* CoreGraphics.framework */; };
+		A3E437891CC5A6470011FFBC /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E437801CC5A6470011FFBC /* Bolts.framework */; };
+		A3E4378A1CC5A6470011FFBC /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E437811CC5A6470011FFBC /* FBSDKCoreKit.framework */; };
+		A3E4378B1CC5A6470011FFBC /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E437821CC5A6470011FFBC /* FBSDKLoginKit.framework */; };
+		A3E4378C1CC5A6470011FFBC /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E437831CC5A6470011FFBC /* FBSDKShareKit.framework */; };
+		A3E4378F1CC5A6470011FFBC /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E437861CC5A6470011FFBC /* ParseFacebookUtilsV4.framework */; };
+		A3E437901CC5A6470011FFBC /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E437871CC5A6470011FFBC /* ParseUI.framework */; };
+		A3E437911CC5A6470011FFBC /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E437881CC5A6470011FFBC /* Parse.framework */; };
+		A3E437951CC5B3650011FFBC /* wwTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E437941CC5B3650011FFBC /* wwTabBarController.m */; };
+		A3E437981CC5B6510011FFBC /* wwFeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E437971CC5B6510011FFBC /* wwFeedTableViewController.m */; };
+		A3E4379B1CC6D13E0011FFBC /* wwAddLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E4379A1CC6D13E0011FFBC /* wwAddLogViewController.m */; };
+		A3E4379E1CC71FC10011FFBC /* wwFeedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E4379D1CC71FC10011FFBC /* wwFeedTableViewCell.m */; };
+		CA3BD23754DA74A8FE99E51E /* libPods-WaterWatch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D13FC283B5273A2D7568B2 /* libPods-WaterWatch.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +63,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39D13FC283B5273A2D7568B2 /* libPods-WaterWatch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WaterWatch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3E4370E1CC592370011FFBC /* WaterWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3E437121CC592370011FFBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A3E437141CC592370011FFBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +82,40 @@
 		A3E437351CC592370011FFBC /* WaterWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3E437391CC592370011FFBC /* WaterWatchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterWatchUITests.m; sourceTree = "<group>"; };
 		A3E4373B1CC592370011FFBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3E4374A1CC598310011FFBC /* wwLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wwLoginViewController.h; sourceTree = "<group>"; };
+		A3E4374B1CC598310011FFBC /* wwLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wwLoginViewController.m; sourceTree = "<group>"; };
+		A3E437621CC5A5770011FFBC /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		A3E437641CC5A57C0011FFBC /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		A3E437661CC5A5B70011FFBC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		A3E437671CC5A5B70011FFBC /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		A3E437681CC5A5B70011FFBC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A3E437691CC5A5B70011FFBC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A3E4376A1CC5A5B70011FFBC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A3E4376B1CC5A5B70011FFBC /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		A3E4376C1CC5A5B70011FFBC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A3E437741CC5A5D60011FFBC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A3E437761CC5A5DE0011FFBC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A3E437781CC5A5E40011FFBC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A3E4377A1CC5A5EA0011FFBC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A3E4377C1CC5A6030011FFBC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A3E4377E1CC5A61E0011FFBC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A3E437801CC5A6470011FFBC /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../Frameworks/Facebook/FacebookSDKs-iOS-20151007/Bolts.framework"; sourceTree = "<group>"; };
+		A3E437811CC5A6470011FFBC /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../Frameworks/Facebook/FacebookSDKs-iOS-20151007/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		A3E437821CC5A6470011FFBC /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../Frameworks/Facebook/FacebookSDKs-iOS-20151007/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		A3E437831CC5A6470011FFBC /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../Frameworks/Facebook/FacebookSDKs-iOS-20151007/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+		A3E437861CC5A6470011FFBC /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtilsV4.framework; path = "../Frameworks/parse-library-1.8.5/ParseFacebookUtilsV4.framework"; sourceTree = "<group>"; };
+		A3E437871CC5A6470011FFBC /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = "../Frameworks/parse-library-1.8.5/ParseUI.framework"; sourceTree = "<group>"; };
+		A3E437881CC5A6470011FFBC /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../Frameworks/parse-library-1.8.5/Parse.framework"; sourceTree = "<group>"; };
+		A3E437931CC5B3650011FFBC /* wwTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wwTabBarController.h; sourceTree = "<group>"; };
+		A3E437941CC5B3650011FFBC /* wwTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wwTabBarController.m; sourceTree = "<group>"; };
+		A3E437961CC5B6510011FFBC /* wwFeedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wwFeedTableViewController.h; path = ../wwFeedTableViewController.h; sourceTree = "<group>"; };
+		A3E437971CC5B6510011FFBC /* wwFeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = wwFeedTableViewController.m; path = ../wwFeedTableViewController.m; sourceTree = "<group>"; };
+		A3E437991CC6D13E0011FFBC /* wwAddLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wwAddLogViewController.h; sourceTree = "<group>"; };
+		A3E4379A1CC6D13E0011FFBC /* wwAddLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wwAddLogViewController.m; sourceTree = "<group>"; };
+		A3E4379C1CC71FC10011FFBC /* wwFeedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wwFeedTableViewCell.h; sourceTree = "<group>"; };
+		A3E4379D1CC71FC10011FFBC /* wwFeedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wwFeedTableViewCell.m; sourceTree = "<group>"; };
+		A64A8B963F861CDE3DAD0D9B /* Pods-WaterWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterWatch.release.xcconfig"; path = "Pods/Target Support Files/Pods-WaterWatch/Pods-WaterWatch.release.xcconfig"; sourceTree = "<group>"; };
+		B1E056B6C5D443596EB90707 /* Pods-WaterWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterWatch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WaterWatch/Pods-WaterWatch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +123,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3E437891CC5A6470011FFBC /* Bolts.framework in Frameworks */,
+				A3E4378A1CC5A6470011FFBC /* FBSDKCoreKit.framework in Frameworks */,
+				A3E4378B1CC5A6470011FFBC /* FBSDKLoginKit.framework in Frameworks */,
+				A3E4378C1CC5A6470011FFBC /* FBSDKShareKit.framework in Frameworks */,
+				A3E4378F1CC5A6470011FFBC /* ParseFacebookUtilsV4.framework in Frameworks */,
+				A3E437901CC5A6470011FFBC /* ParseUI.framework in Frameworks */,
+				A3E437911CC5A6470011FFBC /* Parse.framework in Frameworks */,
+				A3E4377F1CC5A61E0011FFBC /* CoreGraphics.framework in Frameworks */,
+				A3E437711CC5A5B70011FFBC /* Security.framework in Frameworks */,
+				A3E4377D1CC5A6030011FFBC /* AudioToolbox.framework in Frameworks */,
+				A3E4377B1CC5A5EA0011FFBC /* CoreData.framework in Frameworks */,
+				A3E437791CC5A5E40011FFBC /* CFNetwork.framework in Frameworks */,
+				A3E437771CC5A5DE0011FFBC /* CoreLocation.framework in Frameworks */,
+				A3E437751CC5A5D60011FFBC /* QuartzCore.framework in Frameworks */,
+				A3E4376D1CC5A5B70011FFBC /* libsqlite3.tbd in Frameworks */,
+				A3E4376E1CC5A5B70011FFBC /* libstdc++.6.tbd in Frameworks */,
+				A3E4376F1CC5A5B70011FFBC /* libz.tbd in Frameworks */,
+				A3E437701CC5A5B70011FFBC /* MobileCoreServices.framework in Frameworks */,
+				A3E437721CC5A5B70011FFBC /* Social.framework in Frameworks */,
+				A3E437731CC5A5B70011FFBC /* SystemConfiguration.framework in Frameworks */,
+				A3E437631CC5A5770011FFBC /* StoreKit.framework in Frameworks */,
+				CA3BD23754DA74A8FE99E51E /* libPods-WaterWatch.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,13 +165,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CE29BA85D1116078A698409 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1E056B6C5D443596EB90707 /* Pods-WaterWatch.debug.xcconfig */,
+				A64A8B963F861CDE3DAD0D9B /* Pods-WaterWatch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A3E437051CC592370011FFBC = {
 			isa = PBXGroup;
 			children = (
+				A3E437921CC5AB4C0011FFBC /* Frameworks */,
 				A3E437101CC592370011FFBC /* WaterWatch */,
 				A3E4372D1CC592370011FFBC /* WaterWatchTests */,
 				A3E437381CC592370011FFBC /* WaterWatchUITests */,
 				A3E4370F1CC592370011FFBC /* Products */,
+				4CE29BA85D1116078A698409 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,12 +199,11 @@
 		A3E437101CC592370011FFBC /* WaterWatch */ = {
 			isa = PBXGroup;
 			children = (
+				A3E437491CC598060011FFBC /* Log */,
+				A3E437481CC597FC0011FFBC /* Feed */,
+				A3E437471CC597F40011FFBC /* Login */,
 				A3E437141CC592370011FFBC /* AppDelegate.h */,
 				A3E437151CC592370011FFBC /* AppDelegate.m */,
-				A3E437171CC592370011FFBC /* FirstViewController.h */,
-				A3E437181CC592370011FFBC /* FirstViewController.m */,
-				A3E4371A1CC592370011FFBC /* SecondViewController.h */,
-				A3E4371B1CC592370011FFBC /* SecondViewController.m */,
 				A3E4371D1CC592370011FFBC /* Main.storyboard */,
 				A3E437201CC592370011FFBC /* Assets.xcassets */,
 				A3E437221CC592370011FFBC /* LaunchScreen.storyboard */,
@@ -145,6 +239,71 @@
 			path = WaterWatchUITests;
 			sourceTree = "<group>";
 		};
+		A3E437471CC597F40011FFBC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A3E4374A1CC598310011FFBC /* wwLoginViewController.h */,
+				A3E437931CC5B3650011FFBC /* wwTabBarController.h */,
+				A3E437941CC5B3650011FFBC /* wwTabBarController.m */,
+				A3E4374B1CC598310011FFBC /* wwLoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		A3E437481CC597FC0011FFBC /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				A3E437961CC5B6510011FFBC /* wwFeedTableViewController.h */,
+				A3E437971CC5B6510011FFBC /* wwFeedTableViewController.m */,
+				A3E437171CC592370011FFBC /* FirstViewController.h */,
+				A3E437181CC592370011FFBC /* FirstViewController.m */,
+				A3E4379C1CC71FC10011FFBC /* wwFeedTableViewCell.h */,
+				A3E4379D1CC71FC10011FFBC /* wwFeedTableViewCell.m */,
+			);
+			name = Feed;
+			sourceTree = "<group>";
+		};
+		A3E437491CC598060011FFBC /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				A3E4371A1CC592370011FFBC /* SecondViewController.h */,
+				A3E4371B1CC592370011FFBC /* SecondViewController.m */,
+				A3E437991CC6D13E0011FFBC /* wwAddLogViewController.h */,
+				A3E4379A1CC6D13E0011FFBC /* wwAddLogViewController.m */,
+			);
+			name = Log;
+			sourceTree = "<group>";
+		};
+		A3E437921CC5AB4C0011FFBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3E437801CC5A6470011FFBC /* Bolts.framework */,
+				A3E437811CC5A6470011FFBC /* FBSDKCoreKit.framework */,
+				A3E437821CC5A6470011FFBC /* FBSDKLoginKit.framework */,
+				A3E437831CC5A6470011FFBC /* FBSDKShareKit.framework */,
+				A3E437861CC5A6470011FFBC /* ParseFacebookUtilsV4.framework */,
+				A3E437871CC5A6470011FFBC /* ParseUI.framework */,
+				A3E437881CC5A6470011FFBC /* Parse.framework */,
+				A3E4377E1CC5A61E0011FFBC /* CoreGraphics.framework */,
+				A3E4377C1CC5A6030011FFBC /* AudioToolbox.framework */,
+				A3E4377A1CC5A5EA0011FFBC /* CoreData.framework */,
+				A3E437781CC5A5E40011FFBC /* CFNetwork.framework */,
+				A3E437761CC5A5DE0011FFBC /* CoreLocation.framework */,
+				A3E437741CC5A5D60011FFBC /* QuartzCore.framework */,
+				A3E437661CC5A5B70011FFBC /* libsqlite3.tbd */,
+				A3E437671CC5A5B70011FFBC /* libstdc++.6.tbd */,
+				A3E437681CC5A5B70011FFBC /* libz.tbd */,
+				A3E437691CC5A5B70011FFBC /* MobileCoreServices.framework */,
+				A3E4376A1CC5A5B70011FFBC /* Security.framework */,
+				A3E4376B1CC5A5B70011FFBC /* Social.framework */,
+				A3E4376C1CC5A5B70011FFBC /* SystemConfiguration.framework */,
+				A3E437641CC5A57C0011FFBC /* AddressBookUI.framework */,
+				A3E437621CC5A5770011FFBC /* StoreKit.framework */,
+				39D13FC283B5273A2D7568B2 /* libPods-WaterWatch.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +311,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3E4373E1CC592370011FFBC /* Build configuration list for PBXNativeTarget "WaterWatch" */;
 			buildPhases = (
+				959A1709FBCD0687CB0AAFCA /* Check Pods Manifest.lock */,
 				A3E4370A1CC592370011FFBC /* Sources */,
 				A3E4370B1CC592370011FFBC /* Frameworks */,
 				A3E4370C1CC592370011FFBC /* Resources */,
+				DD78C9DD75E19B87E6B942A6 /* Embed Pods Frameworks */,
+				BC2BEF66978A31A6DD5B30B0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -212,6 +374,7 @@
 				TargetAttributes = {
 					A3E4370D1CC592370011FFBC = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = QX7U4PYGCK;
 					};
 					A3E437291CC592370011FFBC = {
 						CreatedOnToolsVersion = 7.3;
@@ -270,13 +433,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		959A1709FBCD0687CB0AAFCA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BC2BEF66978A31A6DD5B30B0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaterWatch/Pods-WaterWatch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD78C9DD75E19B87E6B942A6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaterWatch/Pods-WaterWatch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A3E4370A1CC592370011FFBC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3E4374C1CC598310011FFBC /* wwLoginViewController.m in Sources */,
 				A3E4371C1CC592370011FFBC /* SecondViewController.m in Sources */,
+				A3E4379E1CC71FC10011FFBC /* wwFeedTableViewCell.m in Sources */,
+				A3E437981CC5B6510011FFBC /* wwFeedTableViewController.m in Sources */,
+				A3E4379B1CC6D13E0011FFBC /* wwAddLogViewController.m in Sources */,
 				A3E437161CC592370011FFBC /* AppDelegate.m in Sources */,
+				A3E437951CC5B3650011FFBC /* wwTabBarController.m in Sources */,
 				A3E437191CC592370011FFBC /* FirstViewController.m in Sources */,
 				A3E437131CC592370011FFBC /* main.m in Sources */,
 			);
@@ -417,10 +633,19 @@
 		};
 		A3E4373F1CC592370011FFBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1E056B6C5D443596EB90707 /* Pods-WaterWatch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks/Facebook",
+					"$(PROJECT_DIR)/Frameworks/parse-library-1.8.5",
+					"$(PROJECT_DIR)/Frameworks/Facebook/FacebookSDKs-iOS-20151007",
+				);
 				INFOPLIST_FILE = WaterWatch/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "-lz $(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sanilpruthi.WaterWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -428,10 +653,19 @@
 		};
 		A3E437401CC592370011FFBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A64A8B963F861CDE3DAD0D9B /* Pods-WaterWatch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks/Facebook",
+					"$(PROJECT_DIR)/Frameworks/parse-library-1.8.5",
+					"$(PROJECT_DIR)/Frameworks/Facebook/FacebookSDKs-iOS-20151007",
+				);
 				INFOPLIST_FILE = WaterWatch/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "-lz $(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sanilpruthi.WaterWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -502,6 +736,7 @@
 				A3E437401CC592370011FFBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3E437411CC592370011FFBC /* Build configuration list for PBXNativeTarget "WaterWatchTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +745,7 @@
 				A3E437431CC592370011FFBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3E437441CC592370011FFBC /* Build configuration list for PBXNativeTarget "WaterWatchUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +754,7 @@
 				A3E437461CC592370011FFBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
