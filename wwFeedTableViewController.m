@@ -166,6 +166,8 @@
     {
         cell.image.image = [UIImage imageNamed:@"kitchen_sink"];   
     }
+    
+    cell.image.clipsToBounds = YES; 
 
 
     cell.type.text = usage[@"type"];
