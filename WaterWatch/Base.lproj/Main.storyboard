@@ -37,7 +37,7 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Type of Usage" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8Ym-tp-YRi">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Faucet" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8Ym-tp-YRi">
                                 <rect key="frame" x="8" y="72" width="584" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="ssG-g4-efW"/>
@@ -60,7 +60,7 @@
                                     <!--2016-04-19 09:29:53 +0000-->
                                 </date>
                             </datePicker>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Description" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="G12-vd-KRN">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Description of Activity" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="G12-vd-KRN">
                                 <rect key="frame" x="8" y="432" width="584" height="73"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -108,9 +108,9 @@
                     <navigationItem key="navigationItem" id="jy6-nb-vx2"/>
                     <connections>
                         <outlet property="description" destination="G12-vd-KRN" id="pad-hb-P7U"/>
-                        <outlet property="endDate" destination="DZO-Z0-RYH" id="6lo-qZ-RHt"/>
+                        <outlet property="endDate" destination="8Rd-fG-8WX" id="eID-1A-cwH"/>
                         <outlet property="endLabel" destination="DZO-Z0-RYH" id="x2j-jL-7WS"/>
-                        <outlet property="startDate" destination="8Rd-fG-8WX" id="RWs-dy-aBt"/>
+                        <outlet property="startDate" destination="Oc5-Vj-Pdr" id="hez-m8-8DN"/>
                         <outlet property="startLabel" destination="nXz-4w-40q" id="cCR-GC-SlS"/>
                         <outlet property="usageTextField" destination="8Ym-tp-YRi" id="LcO-xS-JgD"/>
                     </connections>
