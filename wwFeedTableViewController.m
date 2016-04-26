@@ -82,10 +82,20 @@
     UIStoryboard * storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     wwAddLogViewController *addLogVC = [storyboard instantiateViewControllerWithIdentifier:@"wwAddLogViewController"];
     [addLogVC setModalPresentationStyle:UIModalPresentationFullScreen];
-    [self presentViewController:addLogVC animated:YES completion:nil];
+//    [self presentViewController:addLogVC animated:YES completion:nil];
+    [self.navigationController pushViewController:addLogVC animated:YES];
     return;
 }
 
+
+- (UIModalPresentationStyle)adaptivePresentationStyleForPresentationController:(UIPresentationController *)controller {
+    return UIModalPresentationFullScreen;
+}
+
+- (UIViewController *)presentationController:(UIPresentationController *)controller viewControllerForAdaptivePresentationStyle:(UIModalPresentationStyle)style {
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController: controller.presentedViewController];
+    return navController;
+}
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {

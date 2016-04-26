@@ -17,6 +17,9 @@
 @property (strong, nonatomic) IBOutlet UIDatePicker *startDate;
 @property (strong, nonatomic) IBOutlet UIDatePicker *endDate;
 @property (strong, nonatomic) IBOutlet UITextView *description;
+@property (strong, nonatomic) IBOutlet UILabel *startLabel;
+
+@property (strong, nonatomic) IBOutlet UILabel *endLabel;
 
 
 @end

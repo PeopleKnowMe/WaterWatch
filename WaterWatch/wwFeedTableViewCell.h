@@ -18,4 +18,5 @@
 @property (weak, nonatomic) IBOutlet UIView *cardView;
 @property (strong, nonatomic) IBOutlet UIImageView *image;
 
+
 @end

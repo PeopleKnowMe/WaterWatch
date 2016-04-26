@@ -15,7 +15,20 @@
 
 -(void)viewDidAppear:(BOOL)animated
 {
-    self.navigationItem.leftBarButtonItem = nil;
+    self.navigationController.navigationItem.leftBarButtonItem = nil;
+    self.navigationController.navigationBarHidden = NO;
+    
+//    self.startLabel.layer.borderColor = [UIColor whiteColor].CGColor;
+//    
+//    self.endLabel.layer.borderColor = [UIColor whiteColor].CGColor;
+//    
+//    self.startLabel.layer.borderWidth = 1.0;
+//    
+//    self.endLabel.layer.borderWidth = 0.5;
+    
+//      self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Cancel" style:UIBarButtonItemStylePlain target:self action:@selector(dismissPressed)];
+//    
+//    self.navigationItem.rightBarButtonItem.enabled = YES; 
     NSMutableArray* useArray = [[NSMutableArray alloc] init];
     
     // add some sample data
@@ -28,6 +41,13 @@
     // bind yourTextField to DownPicker
     self.downPicker = [[DownPicker alloc] initWithTextField:self.usageTextField withData:useArray];
 }
+
+- (IBAction)dismissPressed:(id)sender
+{
+      [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+
 
 - (IBAction)dismiss:(id)sender
 {
