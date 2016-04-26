@@ -135,20 +135,54 @@
     
     PFObject *usage = [self.feedArray objectAtIndex:indexPath.section];
     
+//    [useArray addObject:@"Faucet"];
+//    [useArray addObject:@"Shower"];
+//    [useArray addObject:@"Toilet"];
+//    [useArray addObject:@"Bath"];
+//    [useArray addObject:@"Kitchen Sink"];
+//    
     
+    if ([usage[@"type"] isEqualToString:@"Shower"])
+    {
+        cell.image.image = [UIImage imageNamed:@"shower"];
+    }
     
+    else if ([usage[@"type"] isEqualToString:@"Faucet"])
+    {
+        cell.image.image = [UIImage imageNamed:@"bathroom_sink"];
+    }
+    
+    else if ([usage[@"type"] isEqualToString:@"Toilet"])
+    {
+        cell.image.image = [UIImage imageNamed:@"toilet"];
+    }
+    
+    else if ([usage[@"type"] isEqualToString:@"Bath"])
+    {
+        cell.image.image = [UIImage imageNamed:@"bath"];
+    }
+    
+    else if ([usage[@"type"] isEqualToString:@"Kitchen Sink"])
+    {
+        cell.image.image = [UIImage imageNamed:@"kitchen_sink"];   
+    }
+
+
     cell.type.text = usage[@"type"];
+    
     cell.desc.text = usage[@"description"];
 //
+    cell.start.numberOfLines = 0;
+    cell.end.numberOfLines = 0; 
 //    //format and set date
     NSDate *startDate = usage[@"startdate"];
     NSDate *endDate = usage[@"enddate"];
     NSDateFormatter *df = [NSDateFormatter new];
-    [df setDateFormat:@"EEEE',' MMM dd 'at' h:mm a"];
+    [df setDateFormat:@"MMM dd 'at' h:mm a"];
     cell.start.text = [df stringFromDate:startDate];
     
     NSDateFormatter *df2 = [NSDateFormatter new];
-    [df2 setDateFormat:@"EEEE',' MMM dd 'at' h:mm a"];
+    [df2 setDateFormat:@"MMM dd 'at' h:mm a"];
     cell.end.text = [df stringFromDate:endDate];
 //
 //    //add gradient layer
