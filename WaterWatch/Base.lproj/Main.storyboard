@@ -794,42 +794,45 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RegistrationButton" translatesAutoresizingMaskIntoConstraints="NO" id="UyE-f9-wP4">
-                                <rect key="frame" x="293" y="393" width="228" height="59"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RegistrationButton" translatesAutoresizingMaskIntoConstraints="NO" id="MvS-fu-85l">
-                                <rect key="frame" x="293" y="456" width="228" height="115"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LoginColor" translatesAutoresizingMaskIntoConstraints="NO" id="FcZ-rB-TVI">
-                                <rect key="frame" x="315" y="482" width="177" height="45"/>
-                            </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7vX-xb-7cF">
-                                <rect key="frame" x="342" y="474" width="130" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dvH-5U-jFB">
-                                <rect key="frame" x="342" y="516" width="130" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="New?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OiK-kK-7h1">
-                                <rect key="frame" x="84" y="393" width="113" height="59"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rLE-p6-vvu">
+                                <rect key="frame" x="128" y="82" width="344" height="196"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="WaterWatch">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="57" name="AmericanTypewriter"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Login" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DOM-in-aff">
-                                <rect key="frame" x="84" y="475" width="113" height="59"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Save Water, Save Money" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tQk-dP-Dtf">
+                                <rect key="frame" x="176" y="224" width="248" height="45.5"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="EQM-8a-QRq">
-                                <rect key="frame" x="122" y="40" width="356" height="305"/>
-                            </imageView>
+                            <view opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6fP-H4-vou">
+                                <rect key="frame" x="62" y="382" width="476" height="128"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CXm-9G-My7">
+                                        <rect key="frame" x="0.0" y="4" width="476" height="115"/>
+                                        <state key="normal" title="Login With Facebook">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Login With Facebook">
+                                                    <attributes>
+                                                        <font key="NSFont" size="36" name="AmericanTypewriter"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.80915611510628926" green="0.81708901819556656" blue="0.81708901819556656" alpha="0.84559755067567566" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0057488754391670227" green="0.76523643732070923" blue="0.99458771944046021" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E55-BH-Mad" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -980,15 +983,29 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Ne-6q-Oe2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="Bm9-pi-JkT">
+            <objects>
+                <viewController id="XQY-y4-HEV" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0NX-Cu-avm"/>
+                        <viewControllerLayoutGuide type="bottom" id="3pG-pM-Zne"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nNU-Km-KVB">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QRo-Be-bYI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
     </scenes>
     <resources>
         <image name="BlackBar" width="412" height="244"/>
         <image name="BlueBar" width="76" height="492"/>
         <image name="GreenBar" width="42" height="276"/>
-        <image name="LoginColor" width="20" height="36"/>
-        <image name="Logo" width="652" height="646"/>
         <image name="RedBar" width="32" height="266"/>
-        <image name="RegistrationButton" width="400" height="108"/>
         <image name="downArrow.png" width="32" height="24"/>
         <image name="drop" width="14" height="21"/>
         <image name="feedicon-date" width="84" height="84"/>
