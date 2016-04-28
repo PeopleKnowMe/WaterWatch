@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3C4D0401CD1D5110072F6B8 /* wwSettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C4D03F1CD1D5110072F6B8 /* wwSettingsTableViewController.m */; };
 		A3E437131CC592370011FFBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E437121CC592370011FFBC /* main.m */; };
 		A3E437161CC592370011FFBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E437151CC592370011FFBC /* AppDelegate.m */; };
 		A3E437191CC592370011FFBC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E437181CC592370011FFBC /* FirstViewController.m */; };
@@ -64,6 +65,8 @@
 
 /* Begin PBXFileReference section */
 		39D13FC283B5273A2D7568B2 /* libPods-WaterWatch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WaterWatch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3C4D03E1CD1D5110072F6B8 /* wwSettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wwSettingsTableViewController.h; sourceTree = "<group>"; };
+		A3C4D03F1CD1D5110072F6B8 /* wwSettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wwSettingsTableViewController.m; sourceTree = "<group>"; };
 		A3E4370E1CC592370011FFBC /* WaterWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3E437121CC592370011FFBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A3E437141CC592370011FFBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -205,6 +208,8 @@
 				A3E437141CC592370011FFBC /* AppDelegate.h */,
 				A3E437151CC592370011FFBC /* AppDelegate.m */,
 				A3E4371D1CC592370011FFBC /* Main.storyboard */,
+				A3C4D03E1CD1D5110072F6B8 /* wwSettingsTableViewController.h */,
+				A3C4D03F1CD1D5110072F6B8 /* wwSettingsTableViewController.m */,
 				A3E437201CC592370011FFBC /* Assets.xcassets */,
 				A3E437221CC592370011FFBC /* LaunchScreen.storyboard */,
 				A3E437251CC592370011FFBC /* Info.plist */,
@@ -486,6 +491,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3C4D0401CD1D5110072F6B8 /* wwSettingsTableViewController.m in Sources */,
 				A3E4374C1CC598310011FFBC /* wwLoginViewController.m in Sources */,
 				A3E4371C1CC592370011FFBC /* SecondViewController.m in Sources */,
 				A3E4379E1CC71FC10011FFBC /* wwFeedTableViewCell.m in Sources */,
