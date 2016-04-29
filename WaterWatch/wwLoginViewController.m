@@ -20,6 +20,7 @@
 {
     [super viewDidLoad];
     [self.loginButton.layer setBorderColor:[[UIColor whiteColor] CGColor]];
+    [self.loginButton.layer setBorderWidth:1.0];
 }
 
 -(void)viewDidAppear:(BOOL)animated
