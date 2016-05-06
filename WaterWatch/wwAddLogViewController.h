@@ -13,7 +13,10 @@
 @interface wwAddLogViewController : UIViewController
 
 @property (strong, nonatomic) DownPicker *downPicker;
+@property (strong, nonatomic) DownPicker *downPicker2;
+
 @property(strong, nonatomic) IBOutlet UITextField *usageTextField;
+@property(strong, nonatomic) IBOutlet UITextField *pressureTextField;
 @property (strong, nonatomic) IBOutlet UIDatePicker *startDate;
 @property (strong, nonatomic) IBOutlet UIDatePicker *endDate;
 @property (strong, nonatomic) IBOutlet UITextView *description;

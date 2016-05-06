@@ -14,7 +14,7 @@
 
 -(void)viewDidLoad
 {
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(plusPressed)];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Add Event" style:UIBarButtonItemStylePlain target:self action:@selector(plusPressed)];
 //    PFUser *currentUser = [PFUser currentUser];
     self.feedArray = [[NSMutableArray alloc] init];
     self.feedSet = [[NSMutableSet alloc] init];

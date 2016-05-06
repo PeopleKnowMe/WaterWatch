@@ -38,8 +38,18 @@
     [useArray addObject:@"Bath"];
     [useArray addObject:@"Kitchen Sink"];
     
+    NSMutableArray* pressureArray = [[NSMutableArray alloc] init];
+    
+    // add some sample data
+    [pressureArray addObject:@"Low"];
+    [pressureArray addObject:@"Medium"];
+    [pressureArray addObject:@"High"];
+    
     // bind yourTextField to DownPicker
     self.downPicker = [[DownPicker alloc] initWithTextField:self.usageTextField withData:useArray];
+    
+    self.downPicker2 = [[DownPicker alloc] initWithTextField:self.pressureTextField withData:pressureArray];
+
 }
 
 - (IBAction)dismissPressed:(id)sender
